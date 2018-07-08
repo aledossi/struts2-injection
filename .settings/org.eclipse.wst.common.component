@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Struts2Injection">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent/WEB-INF/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent/WEB-INF/lib"/>
+        <property name="java-output-path" value="/Struts2Injection/build/classes"/>
+        <property name="context-root" value="Struts2Injection"/>
+    </wb-module>
+</project-modules>

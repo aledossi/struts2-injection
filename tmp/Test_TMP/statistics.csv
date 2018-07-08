@@ -1,0 +1,6 @@
+TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals
+actions.addElement.AddElementAction,PATHCONDITION,0.0,1,1
+actions.addElement.AddElementAction,PATHCONDITION,0.0,1,1
+actions.addElement.AddElementAction,PATHCONDITION,0.0,1,0
+actions.addElement.AddElementAction,PATHCONDITION,0.0,1,1
+actions.addElement.AddElementAction,PATHCONDITION,0.0,1,1

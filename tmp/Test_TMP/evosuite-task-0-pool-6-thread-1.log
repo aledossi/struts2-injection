@@ -1,0 +1,155 @@
+* EvoSuite 1.0.3
+* Going to generate test cases for class: actions.addElement.AddElementAction
+* Starting client
+* Connecting to master process on port 8031
+* Analyzing classpath: 
+  - /home/alessandro/eclipse-workspace/Struts2Injection/build/classes
+  - /home/alessandro/sushi/jbse/target/classes
+  - /home/alessandro/sushi/jbse/data/jre/rt.jar
+  - /home/alessandro/eclipse-workspace/Struts2Injection/WebContent/WEB-INF/lib/struts2-core-2.5.2.jar
+  - /home/alessandro/eclipse-workspace/Struts2Injection/WebContent/WEB-INF/lib/log4j-api-2.5.jar
+  - /home/alessandro/eclipse-workspace/Struts2Injection/WebContent/WEB-INF/lib/log4j-core-2.5.jar
+  - /home/alessandro/eclipse-workspace/Struts2Injection/WebContent/WEB-INF/lib/ognl-3.1.10.jar
+  - /home/alessandro/eclipse-workspace/Struts2Injection/tmp/Test_TMP
+  - /home/alessandro/sushi/runtime/target/classes
+* Finished analyzing classpath
+* Generating tests for class actions.addElement.AddElementAction
+* Test criterion:
+  - Path Condition Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1
+* Using seed 1530797628861
+* Starting evolution
+* Total iterations: 58
+* Top 10 stable iteration series: [0, 0, 1, 1, 4, 6, 7, 8, 9, 23]
+* shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover succeeded (best) 6 times
+* shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver succeeded (best) 0 times
+* shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver succeeded (best) 2 times
+* shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover succeeded (overall) 48 times
+* shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver succeeded (overall) 3 times
+* shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver succeeded (overall) 45 times
+* mutation with shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover succeeded (best) 2 times
+* mutation with shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver succeeded (best) 0 times
+* mutation with shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver succeeded (best) 1 times
+* mutation with shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover succeeded (overall) 20 times
+* mutation with shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver succeeded (overall) 3 times
+* mutation with shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver succeeded (overall) 16 times
+* Minimize called 0 times
+=============== 
+Finished: best is: 0.0
+=============== 
+TestSuite: 1
+Test 0: 
+AddElementAction addElementAction0 = new AddElementAction();
+String string0 = "?9";
+addElementAction0.setFormString(string0);
+int int0 = 404;
+addElementAction0.setFormA(int0);
+int int1 = 2746;
+addElementAction0.setFormE(int1);
+addElementAction0.clearErrors();
+int int2 = (-1);
+addElementAction0.setFormD(int0);
+addElementAction0.setFormC(int2);
+int int3 = (-169);
+addElementAction0.setFormA(int3);
+addElementAction0.setFormE(int0);
+addElementAction0.prepare();
+// Undeclared exception!
+try { 
+  addElementAction0.execute();
+} catch(System.SystemExitException e) {
+   //
+   // no message in exception (getMessage() returned null)
+   //
+   assertThrownBy("shaded.org.evosuite.runtime.System", e);
+}
+
+addElementAction0.prepare();
+addElementAction0.clearErrors();
+String string1 = addElementAction0.execute();
+addElementAction0.prepare();
+int int4 = 2147483645;
+String string2 = addElementAction0.execute();
+addElementAction0.setFormA(int4);
+addElementAction0.setFormString(string3);
+
+* Search finished after 31s and 58 generations, 21640 statements, best individual has fitness: 0.0
+* Minimizing test suite
+Minimization Strategy: totallength, 1 tests
+Minimizing per test
+Considering goal: actions.addElement.AddElementAction.execute()Ljava/lang/String;: path condition EvoSuiteWrapper_0_31 (id = 0)
+Goal covered by minimized test: actions.addElement.AddElementAction.execute()Ljava/lang/String;: path condition EvoSuiteWrapper_0_31 (id = 0)
+After new test the suite covers 1/1 goals
+Minimized suite covers 1/1 goals
+Before removing redundant tests: 1
+After removing redundant tests: 1
+Setting coverage to: 0.0
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion PATHCONDITION
+* Coverage of criterion PATHCONDITION: 100%
+* Total number of goals: 1
+* Number of covered goals: 1
+* Generated 1 tests with total length 8
+* Resulting test suite's coverage: 0%
+* Compiling and checking tests
+[MASTER] 15:34:36.104 [logback-2] ERROR ClassStateSupport - Could not initialize jbse.tree.DecisionAlternative_XCMPY: jbse/tree/DecisionAlternative_XCMPY_Gt
+[MASTER] 15:34:36.127 [logback-2] ERROR ClassStateSupport - Could not initialize jbse.bc.ClassFileArray: jbse/bc/exc/InvalidIndexException
+[MASTER] 15:34:36.221 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.layout.SerializedLayout: org/apache/logging/log4j/core/layout/SerializedLayout$PrivateObjectOutputStream
+[MASTER] 15:34:36.296 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.MemoryMappedFileAppender: org/apache/logging/log4j/core/appender/MemoryMappedFileManager
+[MASTER] 15:34:37.255 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.db.jdbc.JdbcAppender: org/apache/logging/log4j/core/appender/db/AbstractDatabaseManager
+[MASTER] 15:34:37.279 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.OutputStreamAppender: org/apache/logging/log4j/core/appender/OutputStreamAppender$OutputStreamManagerFactory
+[MASTER] 15:34:37.287 [logback-2] ERROR ClassStateSupport - Could not initialize com.opensymphony.xwork2.inject.Scope: com/opensymphony/xwork2/inject/Scope$1
+[MASTER] 15:34:37.326 [logback-2] ERROR ClassStateSupport - Could not initialize jbse.mem.Objekt: jbse/val/Primitive
+[MASTER] 15:34:37.350 [logback-2] ERROR ClassStateSupport - Could not initialize jbse.dec.DecisionProcedureAlgorithms$Outcome: jbse/common/exc/UnexpectedInternalException
+[MASTER] 15:34:37.567 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender: org/apache/logging/log4j/core/appender/rolling/RollingFileManager
+[MASTER] 15:34:37.581 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.mom.jeromq.JeroMqAppender: org/apache/logging/log4j/core/appender/mom/jeromq/JeroMqAppender$1
+[MASTER] 15:34:37.588 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.net.ssl.KeyStoreConfiguration: org/apache/logging/log4j/core/net/ssl/StoreConfigurationException
+[MASTER] 15:34:37.598 [logback-2] ERROR ClassStateSupport - Could not initialize jbse.tree.StateTree: jbse/common/exc/UnexpectedInternalException
+[MASTER] 15:34:37.605 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.FileAppender: org/apache/logging/log4j/core/appender/FileManager
+[MASTER] 15:34:37.668 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.async.AsyncLoggerContext: org/apache/logging/log4j/core/async/AsyncLogger
+[MASTER] 15:34:37.705 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.RollingFileAppender: org/apache/logging/log4j/core/appender/rolling/RollingFileManager
+[MASTER] 15:34:37.720 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.net.ssl.SslConfiguration: org/apache/logging/log4j/core/net/ssl/KeyStoreConfigurationException
+[MASTER] 15:34:37.724 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.layout.XmlLayout: com/fasterxml/jackson/core/JsonProcessingException
+[MASTER] 15:34:37.741 [logback-2] ERROR ClassStateSupport - Could not initialize jbse.jvm.EngineParameters: jbse/mem/exc/ThreadStackEmptyException
+[MASTER] 15:34:37.754 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.WriterAppender: org/apache/logging/log4j/core/util/CloseShieldWriter
+[MASTER] 15:34:37.755 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.layout.AbstractJacksonLayout: com/fasterxml/jackson/core/JsonProcessingException
+[MASTER] 15:34:37.806 [logback-2] ERROR ClassStateSupport - Could not initialize com.opensymphony.xwork2.inject.ContainerImpl: com/opensymphony/xwork2/inject/ContainerImpl$MissingDependencyException
+[MASTER] 15:34:37.812 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.SocketAppender: org/apache/logging/log4j/core/net/AbstractSocketManager
+[MASTER] 15:34:37.824 [logback-2] ERROR ClassStateSupport - Could not initialize jbse.dec.DecisionProcedure: jbse/dec/exc/InvalidInputException
+[MASTER] 15:34:37.863 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.db.jpa.JpaAppender: org/apache/logging/log4j/core/appender/db/jpa/JpaDatabaseManager
+[MASTER] 15:34:37.911 [logback-2] ERROR ClassStateSupport - Could not initialize sushi.configure.JBSEParameters: jbse/val/Calculator
+[MASTER] 15:34:37.931 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.net.ssl.AbstractKeyStoreConfiguration: org/apache/logging/log4j/core/net/ssl/StoreConfigurationException
+[MASTER] 15:34:37.956 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.SyslogAppender: org/apache/logging/log4j/core/net/TcpSocketManager
+[MASTER] 15:34:37.995 [logback-2] ERROR ClassStateSupport - Could not initialize com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor: ognl/MethodFailedException
+[MASTER] 15:34:37.999 [logback-2] ERROR ClassStateSupport - Could not initialize jbse.bc.ClassFile: jbse/bc/exc/InvalidIndexException
+[MASTER] 15:34:38.001 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.layout.JsonLayout: com/fasterxml/jackson/core/JsonProcessingException
+[MASTER] 15:34:38.008 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.RandomAccessFileAppender: org/apache/logging/log4j/core/appender/RandomAccessFileManager
+[MASTER] 15:34:38.050 [logback-2] ERROR ClassStateSupport - Could not initialize jbse.dec.DecisionProcedureAlgorithms: jbse/dec/exc/InvalidInputException
+[MASTER] 15:34:38.070 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.pattern.HighlightConverter: org/apache/logging/log4j/core/pattern/AnsiEscape
+[MASTER] 15:34:38.085 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.net.ssl.TrustStoreConfiguration: org/apache/logging/log4j/core/net/ssl/StoreConfigurationException
+[MASTER] 15:34:38.138 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.mom.JmsAppender: javax/jms/JMSException
+[MASTER] 15:34:38.148 [logback-2] ERROR ClassStateSupport - Could not initialize jbse.dec.DecisionProcedureSignAnalysis$SignPredicate: jbse/dec/DecisionProcedureSignAnalysis$SignPredicate$1
+[MASTER] 15:34:38.174 [logback-2] ERROR ClassStateSupport - Could not initialize jbse.dec.DecisionProcedureDecorator: jbse/dec/exc/InvalidInputException
+[MASTER] 15:34:39.089 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.config.builder.impl.BuiltConfiguration: org/apache/logging/log4j/core/config/plugins/util/ResolverUtil
+[MASTER] 15:34:39.114 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.util.datetime.FastDateFormat: org/apache/logging/log4j/core/util/datetime/FormatCache
+[MASTER] 15:34:39.146 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.db.jdbc.JdbcAppender: org/apache/logging/log4j/core/appender/db/jdbc/JdbcDatabaseManager
+[MASTER] 15:34:39.148 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.OutputStreamAppender: Could not initialize class org.apache.logging.log4j.core.appender.OutputStreamAppender
+[MASTER] 15:34:39.151 [logback-2] ERROR ClassStateSupport - Could not initialize com.opensymphony.xwork2.inject.Scope: com/opensymphony/xwork2/inject/Scope$2
+[MASTER] 15:34:39.166 [logback-2] ERROR ClassStateSupport - Could not initialize jbse.mem.Objekt: jbse/val/Simplex
+[MASTER] 15:34:39.206 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.WriterAppender: org/apache/logging/log4j/core/appender/WriterAppender$WriterManagerFactory
+[MASTER] 15:34:39.219 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.appender.SocketAppender: org/apache/logging/log4j/core/net/TcpSocketManager
+[MASTER] 15:34:39.257 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.pattern.HighlightConverter: Could not initialize class org.apache.logging.log4j.core.pattern.HighlightConverter
+[MASTER] 15:34:39.260 [logback-2] ERROR ClassStateSupport - Could not initialize org.apache.logging.log4j.core.config.properties.PropertiesConfiguration: org.apache.logging.log4j.core.config.builder.impl.BuiltConfiguration
+[MASTER] 15:34:39.269 [logback-2] ERROR ClassStateSupport - Could not initialize jbse.dec.DecisionProcedureSignAnalysis$SignPredicate: jbse/dec/DecisionProcedureSignAnalysis$SignPredicate$2
+[MASTER] 15:34:39.271 [logback-2] ERROR ClassStateSupport - Class org.apache.logging.log4j.core.config.CronScheduledFuture was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+[MASTER] 15:34:39.271 [logback-2] ERROR ClassStateSupport - Class org.apache.logging.log4j.core.util.datetime.Format was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+[MASTER] 15:34:39.271 [logback-2] ERROR ClassStateSupport - Class org.apache.logging.log4j.core.util.NanoClockFactory$1 was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+[MASTER] 15:34:39.271 [logback-2] ERROR ClassStateSupport - Class com.opensymphony.xwork2.util.LocalizedTextUtil$GetDefaultMessageReturnArg was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+[MASTER] 15:34:39.271 [logback-2] ERROR ClassStateSupport - Class org.apache.logging.log4j.core.appender.ConsoleAppender$Builder was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+[MASTER] 15:34:39.271 [logback-2] ERROR ClassStateSupport - Class org.apache.logging.log4j.core.appender.ConsoleAppender$1 was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+[MASTER] 15:34:39.271 [logback-2] ERROR ClassStateSupport - Class org.apache.logging.log4j.core.util.CronExpression was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+* Writing JUnit test case 'AddElementAction_execute_PC_0_31_Test' to /home/alessandro/eclipse-workspace/Struts2Injection/src
+* Done!
+
+* Computation finished

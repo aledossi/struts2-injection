@@ -1,0 +1,434 @@
+* EvoSuite 1.0.3
+* Going to generate test cases for class: actions.addElement.AddElementAction
+* Starting client
+* Connecting to master process on port 18898
+* Analyzing classpath: 
+  - /home/alessandro/eclipse-workspace/Struts2Injection/build/classes
+  - /home/alessandro/sushi/jbse/target/classes
+  - /home/alessandro/sushi/jbse/data/jre/rt.jar
+  - /home/alessandro/eclipse-workspace/Struts2Injection/WebContent/WEB-INF/lib/struts2-core-2.5.2.jar
+  - /home/alessandro/eclipse-workspace/Struts2Injection/WebContent/WEB-INF/lib/log4j-api-2.5.jar
+  - /home/alessandro/eclipse-workspace/Struts2Injection/WebContent/WEB-INF/lib/log4j-core-2.5.jar
+  - /home/alessandro/eclipse-workspace/Struts2Injection/WebContent/WEB-INF/lib/ognl-3.1.10.jar
+  - /home/alessandro/eclipse-workspace/Struts2Injection/tmp/Test_TMP
+  - /home/alessandro/sushi/runtime/target/classes
+* Finished analyzing classpath
+* Generating tests for class actions.addElement.AddElementAction
+* Test criterion:
+  - Path Condition Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1
+* Using seed 1530797223337
+* Starting evolution
+=============== 
+it 200: 0.019900332501663343
+Statistics: best related sucess of shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover is 6
+Statistics: best related sucess of shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver is 1
+Statistics: best related sucess of shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver is 0
+Statistics: overall crossover sucess of shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover is 104
+Statistics: overall crossover sucess of shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver is 41
+Statistics: overall crossover sucess of shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver is 63
+Statistics: best related sucess of shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover is 2
+Statistics: best related sucess of shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver is 0
+Statistics: best related sucess of shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver is 0
+Statistics: overall mutation sucess of shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover is 62
+Statistics: overall mutation sucess of shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver is 14
+Statistics: overall mutation sucess of shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver is 40
+=============== 
+it 200: elite[0]: 0.019900332501663343
+TestSuite: 1
+Test 0: 
+AddElementAction addElementAction0 = new AddElementAction();
+String string0 = "";
+int int0 = 4;
+addElementAction0.setFormInt(int0);
+addElementAction0.setFormB(int0);
+String string1 = "";
+addElementAction0.setFormString(string1);
+String string2 = "";
+addElementAction0.setFormString(string2);
+String string3 = "PA>!NZwN>W/nE+w";
+String string4 = null;
+Collection<String> collection0 = addElementAction0.getActionMessages();
+int int1 = 485;
+String string5 = "";
+int int2 = (-2005);
+int int3 = 485;
+String string6 = "";
+int int4 = (-2005);
+addElementAction0.setFormA(int4);
+String string7 = "";
+addElementAction0.setFormString(string7);
+int int5 = 1;
+addElementAction0.setFormB(int5);
+Collection<String> collection1 = addElementAction0.getActionMessages();
+addElementAction0.prepare();
+int int6 = (-263682002);
+addElementAction0.setFormInt(int6);
+addElementAction0.setFormInt(int6);
+addElementAction0.setFormInt(int6);
+// Undeclared exception!
+try { 
+  addElementAction0.execute();
+} catch(System.SystemExitException e) {
+   //
+   // no message in exception (getMessage() returned null)
+   //
+   assertThrownBy("shaded.org.evosuite.runtime.System", e);
+}
+
+
+it 200: elite[1]: 0.6865669991683276
+TestSuite: 1
+Test 0: 
+AddElementAction addElementAction0 = new AddElementAction();
+int int0 = (-695);
+addElementAction0.setFormA(int0);
+int int1 = 4;
+String string0 = "";
+String string1 = "Creating JeroMqAppender with name={}, filter={}, layout={}, ignoreExceptions={}, endpoints={}";
+addElementAction0.addFieldError(string1, string0);
+addElementAction0.setFormString(string0);
+addElementAction0.setFormString(string0);
+boolean boolean0 = addElementAction0.hasErrors();
+addElementAction0.setFormInt(int1);
+addElementAction0.prepare();
+Collection<String> collection0 = addElementAction0.getActionMessages();
+addElementAction0.prepare();
+int int2 = (-1);
+// Undeclared exception!
+try { 
+  addElementAction0.execute();
+} catch(System.SystemExitException e) {
+   //
+   // no message in exception (getMessage() returned null)
+   //
+   assertThrownBy("shaded.org.evosuite.runtime.System", e);
+}
+
+
+it 200: elite[2]: 0.6865669991683276
+TestSuite: 1
+Test 0: 
+AddElementAction addElementAction0 = new AddElementAction();
+int int0 = 4;
+String string0 = "g";
+addElementAction0.setFormString(string0);
+String string1 = "xm(3j|v>>uhper_0_412";
+addElementAction0.setFormString(string1);
+addElementAction0.setFormInt(int0);
+int int1 = (-271370760);
+addElementAction0.setFormA(int1);
+Collection<String> collection0 = addElementAction0.getActionMessages();
+addElementAction0.prepare();
+addElementAction0.prepare();
+String string2 = Action.NONE;
+addElementAction0.setFormInt(int1);
+addElementAction0.prepare();
+// Undeclared exception!
+try { 
+  addElementAction0.execute();
+} catch(System.SystemExitException e) {
+   //
+   // no message in exception (getMessage() returned null)
+   //
+   assertThrownBy("shaded.org.evosuite.runtime.System", e);
+}
+
+int int2 = addElementAction0.getFormH();
+addElementAction0.addActionMessage(string2);
+int int3 = addElementAction0.getFormH();
+
+it 200: elite[3]: 0.6865669991683276
+TestSuite: 1
+Test 0: 
+AddElementAction addElementAction0 = new AddElementAction();
+int int0 = 4;
+String string0 = null;
+boolean boolean0 = addElementAction0.containsIgnoreCase(string0, string0);
+addElementAction0.setFormInt(int0);
+String string1 = "";
+addElementAction0.setFormInt(int0);
+int int1 = (-372621957);
+addElementAction0.setFormA(int1);
+addElementAction0.setFormString(string1);
+Collection<String> collection0 = addElementAction0.getActionMessages();
+addElementAction0.prepare();
+addElementAction0.prepare();
+int int2 = (-1);
+addElementAction0.setFormB(int2);
+// Undeclared exception!
+try { 
+  addElementAction0.execute();
+} catch(System.SystemExitException e) {
+   //
+   // no message in exception (getMessage() returned null)
+   //
+   assertThrownBy("shaded.org.evosuite.runtime.System", e);
+}
+
+int int3 = 125;
+addElementAction0.setFormC(int3);
+int int4 = (-415139543);
+addElementAction0.setFormA(int4);
+
+it 200: elite[4]: 0.6865669991683312
+TestSuite: 1
+Test 0: 
+AddElementAction addElementAction0 = new AddElementAction();
+int int0 = 3;
+addElementAction0.setFormC(int0);
+addElementAction0.setFormB(int0);
+addElementAction0.setFormInt(int0);
+String string0 = "";
+addElementAction0.setFormString(string0);
+String string1 = "PA>!NZwN>W/nE+w";
+String string2 = null;
+String string3 = "";
+int int1 = (-2005);
+addElementAction0.setFormA(int1);
+String string4 = "";
+addElementAction0.setFormString(string4);
+int int2 = 1;
+addElementAction0.setFormB(int2);
+Collection<String> collection0 = addElementAction0.getActionMessages();
+addElementAction0.prepare();
+int int3 = (-263682002);
+addElementAction0.setFormInt(int3);
+addElementAction0.setFormInt(int3);
+addElementAction0.setFormInt(int3);
+// Undeclared exception!
+try { 
+  addElementAction0.execute();
+} catch(System.SystemExitException e) {
+   //
+   // no message in exception (getMessage() returned null)
+   //
+   assertThrownBy("shaded.org.evosuite.runtime.System", e);
+}
+
+int int4 = addElementAction0.getFormE();
+addElementAction0.setFormString(string4);
+
+* Population reset at iteration 347 (took 300 msec)
+* Population reset at iteration 378 (took 198 msec)
+=============== 
+it 400: 0.019900332501663343
+Statistics: best related sucess of shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover is 6
+Statistics: best related sucess of shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver is 1
+Statistics: best related sucess of shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver is 0
+Statistics: overall crossover sucess of shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover is 143
+Statistics: overall crossover sucess of shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver is 74
+Statistics: overall crossover sucess of shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver is 69
+Statistics: best related sucess of shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover is 2
+Statistics: best related sucess of shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver is 0
+Statistics: best related sucess of shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver is 0
+Statistics: overall mutation sucess of shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover is 126
+Statistics: overall mutation sucess of shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver is 32
+Statistics: overall mutation sucess of shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver is 86
+=============== 
+it 400: elite[0]: 0.019900332501663343
+TestSuite: 1
+Test 0: 
+AddElementAction addElementAction0 = new AddElementAction();
+int int0 = 4;
+String string0 = "";
+addElementAction0.setFormString(string0);
+addElementAction0.setFormB(int0);
+addElementAction0.setFormInt(int0);
+int int1 = (-271370760);
+addElementAction0.setFormA(int1);
+addElementAction0.setFormString(string0);
+int int2 = 1;
+addElementAction0.setFormB(int2);
+Collection<String> collection0 = addElementAction0.getActionMessages();
+addElementAction0.prepare();
+Collection<String> collection1 = addElementAction0.getActionErrors();
+int int3 = (-263682002);
+addElementAction0.setFormInt(int3);
+addElementAction0.setFormInt(int3);
+addElementAction0.setFormInt(int3);
+// Undeclared exception!
+try { 
+  addElementAction0.execute();
+} catch(System.SystemExitException e) {
+   //
+   // no message in exception (getMessage() returned null)
+   //
+   assertThrownBy("shaded.org.evosuite.runtime.System", e);
+}
+
+
+it 400: elite[1]: 0.019900332501663343
+TestSuite: 1
+Test 0: 
+AddElementAction addElementAction0 = new AddElementAction();
+String string0 = "";
+int int0 = 4;
+addElementAction0.setFormInt(int0);
+int int1 = (-2005);
+addElementAction0.setFormA(int1);
+String string1 = "";
+addElementAction0.setFormString(string1);
+int int2 = 1;
+addElementAction0.setFormB(int2);
+Collection<String> collection0 = addElementAction0.getActionMessages();
+addElementAction0.clearFieldErrors();
+addElementAction0.prepare();
+int int3 = (-263682002);
+addElementAction0.setFormInt(int3);
+addElementAction0.setFormInt(int3);
+addElementAction0.setFormInt(int3);
+// Undeclared exception!
+try { 
+  addElementAction0.execute();
+} catch(System.SystemExitException e) {
+   //
+   // no message in exception (getMessage() returned null)
+   //
+   assertThrownBy("shaded.org.evosuite.runtime.System", e);
+}
+
+int int4 = addElementAction0.getFormE();
+addElementAction0.setFormString(string1);
+int int5 = addElementAction0.getFormA();
+
+it 400: elite[2]: 0.019900332501663343
+TestSuite: 1
+Test 0: 
+AddElementAction addElementAction0 = new AddElementAction();
+String string0 = "";
+int int0 = 4;
+addElementAction0.setFormInt(int0);
+addElementAction0.setFormString(string0);
+int int1 = 1;
+addElementAction0.setFormB(int1);
+LinkedHashSet<String> linkedHashSet0 = new LinkedHashSet<String>();
+int int2 = (-53);
+addElementAction0.setFormA(int2);
+addElementAction0.prepare();
+int int3 = (-263682002);
+addElementAction0.setFormInt(int3);
+addElementAction0.setFormB(int3);
+int int4 = 2;
+addElementAction0.setFormInt(int4);
+int int5 = 3343;
+String string1 = "";
+addElementAction0.setFormString(string1);
+LinkedHashSet<String> linkedHashSet1 = new LinkedHashSet<String>();
+addElementAction0.prepare();
+int int6 = (-1);
+addElementAction0.setFormB(int6);
+// Undeclared exception!
+try { 
+  addElementAction0.execute();
+} catch(System.SystemExitException e) {
+   //
+   // no message in exception (getMessage() returned null)
+   //
+   assertThrownBy("shaded.org.evosuite.runtime.System", e);
+}
+
+addElementAction0.setFormD(int3);
+
+it 400: elite[3]: 0.019900332501663343
+TestSuite: 1
+Test 0: 
+AddElementAction addElementAction0 = new AddElementAction();
+int int0 = 485;
+String string0 = "";
+int int1 = (-2005);
+addElementAction0.setFormA(int1);
+int int2 = 36;
+addElementAction0.setFormB(int2);
+addElementAction0.setFormString(string0);
+addElementAction0.setFormString(string0);
+int int3 = 4;
+addElementAction0.setFormB(int3);
+String string1 = "";
+boolean boolean0 = addElementAction0.containsIgnoreCase(string1, string1);
+int int4 = 1;
+addElementAction0.setFormString(string0);
+addElementAction0.setFormInt(int4);
+addElementAction0.setFormB(int4);
+addElementAction0.setFormString(string1);
+boolean boolean1 = addElementAction0.hasErrors();
+addElementAction0.setFormInt(int3);
+addElementAction0.prepare();
+Collection<String> collection0 = addElementAction0.getActionMessages();
+addElementAction0.prepare();
+int int5 = (-1);
+// Undeclared exception!
+try { 
+  addElementAction0.execute();
+} catch(System.SystemExitException e) {
+   //
+   // no message in exception (getMessage() returned null)
+   //
+   assertThrownBy("shaded.org.evosuite.runtime.System", e);
+}
+
+
+it 400: elite[4]: 0.019900332501663343
+TestSuite: 1
+Test 0: 
+AddElementAction addElementAction0 = new AddElementAction();
+String string0 = "";
+int int0 = 4;
+int int1 = (-2432);
+addElementAction0.setFormInt(int1);
+addElementAction0.setFormB(int0);
+addElementAction0.setFormString(string0);
+AddElementAction addElementAction1 = new AddElementAction();
+addElementAction0.setFormInt(int0);
+String string1 = "";
+boolean boolean0 = addElementAction0.containsIgnoreCase(string1, string1);
+String string2 = "";
+addElementAction0.setFormString(string2);
+int int2 = (-271370760);
+addElementAction0.setFormA(int2);
+Collection<String> collection0 = addElementAction0.getActionMessages();
+String string3 = "";
+addElementAction0.setFormString(string3);
+int int3 = 1;
+addElementAction0.setFormB(int3);
+Collection<String> collection1 = addElementAction0.getActionMessages();
+addElementAction0.prepare();
+int int4 = (-263682002);
+addElementAction0.setFormInt(int4);
+addElementAction0.setFormInt(int4);
+addElementAction0.setFormInt(int4);
+// Undeclared exception!
+try { 
+  addElementAction0.execute();
+} catch(System.SystemExitException e) {
+   //
+   // no message in exception (getMessage() returned null)
+   //
+   assertThrownBy("shaded.org.evosuite.runtime.System", e);
+}
+
+
+[MASTER] 15:29:17.742 [main] ERROR ExternalProcessHandler - Class actions.addElement.AddElementAction. Lost connection with clients.
+ClientNode: SEARCH
+
+java.rmi.UnmarshalException: Error unmarshaling return header; nested exception is: 
+	java.io.EOFException
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:236) ~[na:1.8.0_171]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[na:1.8.0_171]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227) ~[na:1.8.0_171]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179) ~[na:1.8.0_171]
+	at com.sun.proxy.$Proxy7.waitUntilFinished(Unknown Source) ~[na:na]
+	at shaded.org.evosuite.utils.ExternalProcessHandler.waitForResult(ExternalProcessHandler.java:608) ~[evosuite-shaded-1.0.3.jar:1.0.3]
+	at shaded.org.evosuite.executionmode.TestGeneration.generateTests(TestGeneration.java:471) [evosuite-shaded-1.0.3.jar:1.0.3]
+	at shaded.org.evosuite.executionmode.TestGeneration.executeTestGeneration(TestGeneration.java:79) [evosuite-shaded-1.0.3.jar:1.0.3]
+	at shaded.org.evosuite.EvoSuite.parseCommandLine(EvoSuite.java:269) [evosuite-shaded-1.0.3.jar:1.0.3]
+	at shaded.org.evosuite.EvoSuite.main(EvoSuite.java:302) [evosuite-shaded-1.0.3.jar:1.0.3]
+Caused by: java.io.EOFException: null
+	at java.io.DataInputStream.readByte(DataInputStream.java:267) ~[na:1.8.0_171]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:222) ~[na:1.8.0_171]
+	... 9 common frames omitted
+* Computation finished
+[MASTER] 15:29:17.845 [main] ERROR SearchStatistics - No obtained value for output variable: Total_Goals
+[MASTER] 15:29:18.851 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 15:29:18.953 [main] ERROR TestGeneration - failed to write statistics data

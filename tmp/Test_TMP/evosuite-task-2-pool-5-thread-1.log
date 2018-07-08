@@ -1,0 +1,104 @@
+* EvoSuite 1.0.3
+* Going to generate test cases for class: actions.addElement.AddElementAction
+* Starting client
+* Connecting to master process on port 4738
+* Analyzing classpath: 
+  - /home/alessandro/eclipse-workspace/Struts2Injection/build/classes
+  - /home/alessandro/sushi/jbse/target/classes
+  - /home/alessandro/sushi/jbse/data/jre/rt.jar
+  - /home/alessandro/eclipse-workspace/Struts2Injection/WebContent/WEB-INF/lib/struts2-core-2.5.2.jar
+  - /home/alessandro/eclipse-workspace/Struts2Injection/WebContent/WEB-INF/lib/log4j-api-2.5.jar
+  - /home/alessandro/eclipse-workspace/Struts2Injection/WebContent/WEB-INF/lib/log4j-core-2.5.jar
+  - /home/alessandro/eclipse-workspace/Struts2Injection/WebContent/WEB-INF/lib/ognl-3.1.10.jar
+  - /home/alessandro/eclipse-workspace/Struts2Injection/tmp/Test_TMP
+  - /home/alessandro/sushi/runtime/target/classes
+* Finished analyzing classpath
+* Generating tests for class actions.addElement.AddElementAction
+* Test criterion:
+  - Path Condition Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1
+* Using seed 1530787406348
+* Starting evolution
+* Total iterations: 72
+* Top 10 stable iteration series: [0, 0, 1, 1, 1, 2, 6, 10, 26, 26]
+* shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover succeeded (best) 6 times
+* shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver succeeded (best) 0 times
+* shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver succeeded (best) 1 times
+* shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover succeeded (overall) 93 times
+* shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver succeeded (overall) 21 times
+* shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver succeeded (overall) 56 times
+* mutation with shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover succeeded (best) 1 times
+* mutation with shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver succeeded (best) 0 times
+* mutation with shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver succeeded (best) 0 times
+* mutation with shaded.org.evosuite.ga.operators.crossover.CombineTestSuiteCrossover succeeded (overall) 34 times
+* mutation with shaded.org.evosuite.ga.operators.crossover.MethodSequencesCrossOver succeeded (overall) 14 times
+* mutation with shaded.org.evosuite.ga.operators.crossover.CrosscontaminationCrossOver succeeded (overall) 18 times
+* Minimize called 3 times
+=============== 
+Finished: best is: 0.0
+=============== 
+TestSuite: 1
+Test 0: 
+AddElementAction addElementAction0 = new AddElementAction();
+int int0 = (-6);
+addElementAction0.setFormInt(int0);
+String string0 = "&IXs";
+addElementAction0.setFormH(int0);
+int int1 = 1;
+addElementAction0.setFormB(int1);
+int int2 = (-2363);
+addElementAction0.setFormH(int2);
+int int3 = 1754;
+addElementAction0.setFormA(int3);
+addElementAction0.setFormH(int0);
+addElementAction0.setFormG(int0);
+addElementAction0.setFormString(string0);
+int int4 = (-1311);
+int int5 = 2620;
+addElementAction0.setFormC(int5);
+addElementAction0.addActionMessage(string0);
+addElementAction0.setFormC(int4);
+addElementAction0.prepare();
+addElementAction0.prepare();
+String string1 = "wa@f:w{5";
+addElementAction0.setFormString(string1);
+// Undeclared exception!
+try { 
+  addElementAction0.execute();
+} catch(System.SystemExitException e) {
+   //
+   // no message in exception (getMessage() returned null)
+   //
+   assertThrownBy("shaded.org.evosuite.runtime.System", e);
+}
+
+addElementAction0.setFormD(int2);
+int int6 = addElementAction0.getFormG();
+addElementAction0.prepare();
+
+* Search finished after 33s and 72 generations, 89177 statements, best individual has fitness: 0.0
+* Minimizing test suite
+Minimization Strategy: totallength, 1 tests
+Minimizing per test
+Considering goal: actions.addElement.AddElementAction.execute()Ljava/lang/String;: path condition EvoSuiteWrapper_0_2 (id = 0)
+[MASTER] 12:44:16.781 [main] ERROR ExternalProcessHandler - Class actions.addElement.AddElementAction. Lost connection with clients.
+ClientNode: MINIMIZATION
+
+java.rmi.UnmarshalException: Error unmarshaling return header; nested exception is: 
+	java.io.EOFException
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:236) ~[na:1.8.0_171]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[na:1.8.0_171]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227) ~[na:1.8.0_171]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179) ~[na:1.8.0_171]
+	at com.sun.proxy.$Proxy7.waitUntilFinished(Unknown Source) ~[na:na]
+	at shaded.org.evosuite.utils.ExternalProcessHandler.waitForResult(ExternalProcessHandler.java:608) ~[evosuite-shaded-1.0.3.jar:1.0.3]
+	at shaded.org.evosuite.executionmode.TestGeneration.generateTests(TestGeneration.java:471) [evosuite-shaded-1.0.3.jar:1.0.3]
+	at shaded.org.evosuite.executionmode.TestGeneration.executeTestGeneration(TestGeneration.java:79) [evosuite-shaded-1.0.3.jar:1.0.3]
+	at shaded.org.evosuite.EvoSuite.parseCommandLine(EvoSuite.java:269) [evosuite-shaded-1.0.3.jar:1.0.3]
+	at shaded.org.evosuite.EvoSuite.main(EvoSuite.java:302) [evosuite-shaded-1.0.3.jar:1.0.3]
+Caused by: java.io.EOFException: null
+	at java.io.DataInputStream.readByte(DataInputStream.java:267) ~[na:1.8.0_171]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:222) ~[na:1.8.0_171]
+	... 9 common frames omitted
+* Computation finished
